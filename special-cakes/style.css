@@ -7,6 +7,10 @@ body {
 	
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
 .logo {
 	max-width: 500px;
 }
@@ -29,6 +33,10 @@ nav a {
 	margin-left: 5px;
 	transition: .3s;
 	display: inline-block;
+}
+
+a {
+	color: #E94D40;
 }
 nav a:hover {
 	transform: scale(1.1);
