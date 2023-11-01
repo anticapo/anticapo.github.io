@@ -9,6 +9,9 @@ nav ul {
 }
 
 nav li {
-	display: inline-block;
-	
+	display: inline-block;	
+}
+
+a {
+	color: #E94D40;
 }
