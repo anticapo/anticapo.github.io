@@ -12,6 +12,13 @@ nav li {
 	display: inline-block;	
 }
 
-a {
+nav a {
 	color: #E94D40;
+	text-decoration: 0;
+/*	backface: yellow;*/
+	padding: 5px;
+	margin-left: 5px;
+}
+nav a:hover {
+	transform:scale(1.25);
 }
