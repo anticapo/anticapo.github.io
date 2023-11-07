@@ -55,6 +55,45 @@ label {
 }
 
 input[type=text]{
-	padding: 8px;
+	padding: 5px;
 	margin-bottom: 5px;
 }
+
+/* Image Grid 
+--------------------*/
+
+.image-grid {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap:  20px;
+}
+
+.image-grid figure {
+	margin: 0;
+}
+
+@media only screen and (min-width: 640px) {
+	.image-grid {
+	    grid-template-columns: repeat(3,1fr);
+	}
+}
+
+/* Table
+--------------------*/
+
+table {
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th {
+	background: #eee;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
